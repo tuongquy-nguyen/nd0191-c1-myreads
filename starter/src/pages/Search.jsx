@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { useSearchBook } from "../hooks/useSearchBook";
 import SearchBookResult from "../components/SearchBookResult";
 
-const SearchPage = (props) => {
+const Search = (props) => {
   const { location } = props;
   const { isError, handleOnChangeBookSelf, searchList, handleSearch } =
     useSearchBook(location);
@@ -31,4 +31,4 @@ const SearchPage = (props) => {
   );
 };
 
-export default SearchPage;
+export default Search;

@@ -1,7 +1,7 @@
 import Title from "../components/Title";
 import ListBookContent from "../components/ListBookContent";
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div className="list-books">
       <Title title="MyReads" />
@@ -10,4 +10,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;
